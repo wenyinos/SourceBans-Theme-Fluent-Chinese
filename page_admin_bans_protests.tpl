@@ -94,7 +94,7 @@
                                             </li>
 
                                             <li>
-                                                <span><i class="fa-solid fa-network-wired"></i> IP address</span>
+                                                <span><i class="fa-solid fa-network-wired"></i> IP 地址</span>
                                                 {if $protest.ip == 'none' || $protest.ip == ''}
                                                     <span class="text:italic">无 IP 地址</span>
                                                 {else}
@@ -169,7 +169,7 @@
                                                                 {if !empty($commenta.comname)}
                                                                     <span class="text:bold">{$commenta.comname|escape:'html'}</span>
                                                                 {else}
-                                                                    <span class="text:italic">Admin deleted</span>
+                                                                    <span class="text:italic">管理员已删除</span>
                                                                 {/if}
                                                                 <span>{$commenta.added}</span>
                                                                 {if $commenta.editcomlink != ""}

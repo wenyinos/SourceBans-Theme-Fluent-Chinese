@@ -196,7 +196,7 @@ function FadeElIn(id, time) {
 function DoLogin(redir) {
   var err = 0;
   if (!$('loginUsername').value) {
-    $('loginUsername.msg').setHTML('You must enter your loginname!');
+    $('loginUsername.msg').setHTML('您必须输入您的登录名！');
     $('loginUsername.msg').setStyle('display', 'block');
     err++;
   } else {
@@ -205,7 +205,7 @@ function DoLogin(redir) {
   }
 
   if (!$('loginPassword').value) {
-    $('loginPassword.msg').setHTML('You must enter your password!');
+    $('loginPassword.msg').setHTML('您必须输入您的密码！');
     $('loginPassword.msg').setStyle('display', 'block');
     err++;
   } else {
@@ -484,7 +484,7 @@ function update_web() {
     document.getElementById('webg').value == 'c' ||
     document.getElementById('webg').value == 'n'
   ) {
-    $('web.msg').setHTML('Please Wait...');
+    $('web.msg').setHTML('请稍候...');
     $('web.msg').setStyle('display', 'block');
   }
 
@@ -508,7 +508,7 @@ function update_server_groups() {
   $('nsgroup').setHTML('');
 
   if (document.getElementById('serverg').value == 'n') {
-    $('group.msg').setHTML('Please Wait...');
+    $('group.msg').setHTML('请稍候...');
     $('group.msg').setStyle('display', 'block');
     var height = 50;
     Shrink('nsgroup', 500, height);
@@ -713,7 +713,7 @@ function update_server() {
     document.getElementById('serverg').value == 'c' ||
     document.getElementById('serverg').value == 'n'
   ) {
-    $('server.msg').setHTML('Please Wait...');
+    $('server.msg').setHTML('请稍候...');
     $('server.msg').setStyle('display', 'block');
   }
 
@@ -917,7 +917,7 @@ function search_log() {
 }
 var icname = '';
 function icon(name) {
-  $('icon.msg').setHTML('Uploaded: <b>' + name + '</b>');
+  $('icon.msg').setHTML('已上传: <b>' + name + '</b>');
   icname = name;
   if ($('icon_hid')) $('icon_hid').value = name;
 }
@@ -1072,7 +1072,7 @@ function UpdateGroupPermissionCheckBoxes() {
     document.getElementById('grouptype').value != 3 &&
     document.getElementById('grouptype').value != 0
   ) {
-    $('type.msg').setHTML('Please Wait...');
+    $('type.msg').setHTML('请稍候...');
     $('type.msg').setStyle('display', 'block');
   }
   if (document.getElementById('grouptype').value == 1) {
@@ -1143,7 +1143,7 @@ function ShowRehashBox(servers, title, msg, color, redir) {
 function ProcessComment() {
   var err = 0;
   if ($('commenttext').value == '') {
-    $('commenttext.msg').setHTML('You have to type your comment');
+    $('commenttext.msg').setHTML('您必须输入您的评论');
     $('commenttext.msg').setStyle('display', 'block');
     err++;
   } else {
@@ -1210,7 +1210,7 @@ function BanFriendsProcess(fid, name) {
     'Banning friends of ' + name,
     "Banning all steam community friends of '" +
       name +
-      "'.<br />Please wait...<br />This can last very long, depending on the amount of friends.",
+      '。<br />请稍候...<br />这可能会持续很长时间，取决于好友数量。',
     'blue',
     '',
     true
@@ -1242,7 +1242,7 @@ function OpenMessageBox(sid, name, popup) {
   } else if (popup == 0) {
     message = $('ingamemsg').value;
     if (message == '') {
-      $('ingamemsg.msg').setHTML('Please type your message.');
+      $('ingamemsg.msg').setHTML('请输入您的消息。');
       $('ingamemsg.msg').setStyle('display', 'block');
       return;
     } else {
@@ -1282,7 +1282,7 @@ function KickPlayerConfirm(sid, name, conf) {
 }
 
 function mapimg(filename) {
-  $('mapimg.msg').setHTML('Uploaded: <b>' + filename + '</b>');
+  $('mapimg.msg').setHTML('已上传: <b>' + filename + '</b>');
 }
 
 function selectLengthTypeReason(length, type, reason) {
@@ -1379,7 +1379,7 @@ function UnGag(id, key, page, name, popup) {
     else var pagelink = '';
     reason = $('ureason').value;
     if (reason == '') {
-      $('ureason.msg').setHTML('Please leave a comment.');
+      $('ureason.msg').setHTML('请留言。');
       $('ureason.msg').setStyle('display', 'block');
       return;
     } else {
@@ -1425,7 +1425,7 @@ function UnMute(id, key, page, name, popup) {
     else var pagelink = '';
     reason = $('ureason').value;
     if (reason == '') {
-      $('ureason.msg').setHTML('Please leave a comment.');
+      $('ureason.msg').setHTML('请留言。');
       $('ureason.msg').setStyle('display', 'block');
       return;
     } else {

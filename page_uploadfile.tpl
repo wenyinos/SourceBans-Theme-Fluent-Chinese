@@ -45,7 +45,7 @@
 						border: 0;
 						margin-top: 5px;"
 					type="submit">
-				<i class="fas fa-save"></i> Save
+				<i class="fas fa-save"></i> 保存
 			</button>
 		</form>
 	</body>

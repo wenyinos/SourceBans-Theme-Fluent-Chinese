@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="tee">
+<html lang="zh-CN" class="tee">
 
 <head>
     <script type="text/javascript" src="themes/{$theme}/scripts/initial.js"></script>

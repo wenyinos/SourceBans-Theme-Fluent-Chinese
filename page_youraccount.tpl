@@ -306,14 +306,14 @@
         if($('pass1').value.length < -{$min_pass_len}-)
         {
             $('pass1.msg').setStyle('display', 'block');
-            $('pass1.msg').setHTML('Your password must be atleast -{$min_pass_len}- letters long');
+            $('pass1.msg').setHTML('您的密码长度必须至少为 -{$min_pass_len}- 个字符');
             err++;
         } else {
             $('pass1.msg').setStyle('display', 'none');
         }
         if ($('pass2').value != "" && $('pass2').value != $('pass1').value) {
             $('pass2.msg').setStyle('display', 'block');
-            $('pass2.msg').setHTML('Your passwords dont match');
+            $('pass2.msg').setHTML('两次输入的密码不一致');
             err++;
         } else {
             $('pass2.msg').setStyle('display', 'none');
@@ -328,8 +328,8 @@
     }
 
     const dispatch = () => {
-        if ($('current.msg').innerHTML == "Incorrect password.") {
-            alert("Incorrect Password");
+        if ($('current.msg').innerHTML == "密码不正确。") {
+            alert("密码不正确");
             return false;
         }
         if (checkYourAcctPass() && error == 0) {
@@ -344,14 +344,14 @@
             if($('spass1').value.length < -{$min_pass_len}-)
             {
                 $('spass1.msg').setStyle('display', 'block');
-                $('spass1.msg').setHTML('Your password must be atleast -{$min_pass_len}- letters long');
+                $('spass1.msg').setHTML('您的密码长度必须至少为 -{$min_pass_len}- 个字符');
                 err++;
             } else {
                 $('spass1.msg').setStyle('display', 'none');
             }
             if ($('spass2').value != "" && $('spass2').value != $('spass1').value) {
                 $('spass2.msg').setStyle('display', 'block');
-                $('spass2.msg').setHTML('Your passwords dont match');
+                $('spass2.msg').setHTML('两次输入的密码不一致');
                 err++;
             } else {
                 $('spass2.msg').setStyle('display', 'none');
@@ -371,8 +371,8 @@
 
     const srvdispatch = () => {
         -{if $srvpwset}-
-            if ($('scurrent.msg').innerHTML == "Incorrect password.") {
-                alert("Incorrect Password");
+            if ($('scurrent.msg').innerHTML == "密码不正确。") {
+                alert("密码不正确");
                 return false;
             }
         -{/if}-
@@ -388,7 +388,7 @@
         let err = 0;
         if ($('email1').value == "") {
             $('email1.msg').setStyle('display', 'block');
-            $('email1.msg').setHTML('Please type the new E-mail.');
+            $('email1.msg').setHTML('请输入新邮箱。');
             err++;
         } else {
             $('email1.msg').setStyle('display', 'none');
@@ -396,7 +396,7 @@
 
         if ($('email2').value == "") {
             $('email2.msg').setStyle('display', 'block');
-            $('email2.msg').setHTML('Please retype the new E-mail.');
+            $('email2.msg').setHTML('请重新输入新邮箱。');
             err++;
         } else {
             $('email2.msg').setStyle('display', 'none');
@@ -404,13 +404,13 @@
 
         if (err == 0 && $('email2').value != $('email1').value) {
             $('email2.msg').setStyle('display', 'block');
-            $('email2.msg').setHTML('The typed E-mails doesn\'t match.');
+            $('email2.msg').setHTML('两次输入的邮箱地址不一致。');
             err++;
         }
 
         if ($('emailpw').value == "") {
             $('emailpw.msg').setStyle('display', 'block');
-            $('emailpw.msg').setHTML('Please type your password.');
+            $('emailpw.msg').setHTML('请输入密码。');
             err++;
         } else {
             $('emailpw.msg').setStyle('display', 'none');

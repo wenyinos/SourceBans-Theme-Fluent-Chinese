@@ -89,7 +89,7 @@
                             <td class="text:center">{$ban.mod_icon}</td>
                             <td>{$ban.ban_date}</td>
                                 {if empty($ban.player)}
-                                    <td class="text:italic">No nickname present</td>
+                                    <td class="text:italic">无昵称</td>
                                 {else}
                                     <td>
 	    			  	                {if $view_comments && $ban.commentdata != "None" && $ban.commentdata|@count > 0}

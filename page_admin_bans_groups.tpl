@@ -96,8 +96,8 @@
                                 <tr>
                                     <td valign="top" width="35%">
                                         <div class="rowdesc">
-                                            {help_icon title="Group Ban Reason" message="Type the reason, why you are going to ban this steam community group."}Group
-                                            Ban Reason
+                                            {help_icon title="组封禁理由" message="输入您要对这个 Steam 社区群组进行封禁的理由。"}组
+                                            封禁理由
                                         </div>
                                     </td>
                                     <td>

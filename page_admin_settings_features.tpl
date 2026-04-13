@@ -1,5 +1,5 @@
 <div class="admin_tab_content_title">
-    <h2><i class="fas fa-cogs"></i> Sourcebans++ Features</h2>
+    <h2><i class="fas fa-cogs"></i> SourceBans++ 功能设置</h2>
 </div>
 
 <div class="padding">
@@ -15,7 +15,7 @@
             <input type="checkbox" name="export_public" class="form-check" id="export_public" />
 
             <label for="export_public" class="form-label form-label:left">
-                Enable Public Bans
+                启用公共封禁
             </label>
 
             <div class="form-desc">
@@ -28,7 +28,7 @@
             <input type="checkbox" name="enable_kickit" class="form-check" id="enable_kickit" />
 
             <label for="export_public" class="form-label form-label:left">
-                Enable KickIt
+                启用踢人功能
             </label>
 
             <div class="form-desc">
@@ -134,8 +134,8 @@
         </div>
 
         <div class="flex flex-ai:center flex-jc:space-between">
-            {sb_button text="Save Changes" class="button button-success" id="fsettings" submit=true}
-            {sb_button text="Back" class="button button-light" id="fback"}
+            {sb_button text="保存更改" class="button button-success" id="fsettings" submit=true}
+            {sb_button text="返回" class="button button-light" id="fback"}
         </div>
     </form>
 </div>
