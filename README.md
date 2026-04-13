@@ -5,7 +5,13 @@
 ## ✨ 特性
 
 - 🎨 Fluent Design + iOS + Android + Google设计风格融合
-- 🇨🇳 完整的简体中文翻译（所有TPL模板文件）
+- 🇨🇳 完整的简体中文翻译（所有 53 个 TPL 模板文件）
+  - ✅ 导航栏、页脚、搜索框
+  - ✅ 封禁列表、语音封禁列表
+  - ✅ 管理员管理、服务器管理
+  - ✅ 申诉统计、举报管理
+  - ✅ 设置面板、账户管理
+  - ✅ 错误提示、更新程序页面
 - 📱 响应式布局，支持移动端
 - 🌙 支持深色模式
 - ⚡ 现代化 UI 界面
@@ -42,7 +48,21 @@
 - [aXenDeveloper](https://github.com/aXenDeveloper) - 原作者
 - [Hackmastr](https://github.com/Hackmastr) - PHP 8.1 适配
 - [Rushaway](https://github.com/Rushaway) - 维护者
-- 中文翻译贡献者
+- [wenyinos](https://github.com/wenyinos) - 中文翻译
+- [F1F88](https://github.com/F1F88) - 感谢支持
+
+## 📝 翻译完成情况
+
+本项目已完成所有模板文件的简体中文翻译，包括：
+
+- **核心模板**: header.tpl, navbar.tpl, footer.tpl, title.tpl, nav_mobile.tpl
+- **管理页面**: 封禁管理、语音封禁、管理员管理、服务器管理、组管理、模组管理、系统设置等
+- **用户页面**: 仪表盘、封禁列表、语音封禁列表、登录页面、账户设置等
+- **搜索组件**: 各类搜索框和筛选组件
+- **错误提示**: 403 禁止访问等错误页面
+- **更新程序**: updater.tpl 更新页面
+
+保留的英文内容为技术术语（Steam ID, SourceMod 等）和品牌名称。
 
 ## 📄 许可证
 

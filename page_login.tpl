@@ -50,7 +50,7 @@
             <!--  ! Customized information -->
             <!-- <div class="margin-top text:center">
                 <a href="index.php?p=login&o=steam">
-                    <img src="images/steamlogin.png" alt="Login Steam">
+                    <img src="images/steamlogin.png" alt="Steam 登录">
                 </a>
             </div> -->
         </div>

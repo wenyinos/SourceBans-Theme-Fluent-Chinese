@@ -48,7 +48,7 @@
 
 <div class="layout_box margin-bottom padding:half flex flex-jc:space-between flex-ai:center m:flex-fd:column">
     <span>
-        <a href="index.php?p=banlist&hideinactive={if $hidetext == '隐藏'}true{else}false{/if}{$searchlink|smarty_htmlspecialchars}" title="{$hidetext} inactive">{$hidetext} 已失效的封禁 </a> | <i>封禁数: {$total_bans} </i>
+        <a href="index.php?p=banlist&hideinactive={if $hidetext == '隐藏'}true{else}false{/if}{$searchlink|smarty_htmlspecialchars}" title="{$hidetext} 不活跃">{$hidetext} 已失效的封禁 </a> | <i>封禁数: {$total_bans} </i>
     </span>
         <div class="pagination">
             <span>{$ban_nav}</span>
@@ -160,7 +160,7 @@
                                                     <li>
                                                         <span><i class="fab fa-steam-symbol"></i> Steam ID</span>
                                                         {if empty($ban.steamid)}
-                                                            <span class="text:italic">没有 STEAM ID</span>
+                                                            <span class="text:italic">无 STEAM ID</span>
                                                         {else}
                                                             <span>{$ban.steamid}</span>
                                                         {/if}
@@ -177,9 +177,9 @@
                                                     </li>
                                                     {if $ban.type == 0}
                                                         <li>
-                                                            <span><i class="fab fa-steam-symbol"></i> Steam Community</span>
+                                                            <span><i class="fab fa-steam-symbol"></i> Steam 社区</span>
                                                             {if empty($ban.steamid)}
-                                                                <span class="text:italic">没有 STEAM Community ID</span>
+                                                                <span class="text:italic">无 STEAM Community ID</span>
                                                             {else}
                                                                 <span>
                                                                     <a href="http://steamcommunity.com/profiles/{$ban.communityid}" target="_blank" rel="noopener">{$ban.communityid}</a>

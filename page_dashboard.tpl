@@ -29,7 +29,7 @@
           {foreach from=$players_banned item="player"}
             <tr class="collapse" onclick="{$player.link_url}">
               <td class="text:center">
-                <img src="images/games/{$player.icon}" alt="{$player.icon}" title="MOD" border="0" align="absmiddle"/>&nbsp;<i class="responsive_show:desktop fas fa-ban fa-lg"></i>
+                <img src="images/games/{$player.icon}" alt="{$player.icon}" title="模组" border="0" align="absmiddle"/>&nbsp;<i class="responsive_show:desktop fas fa-ban fa-lg"></i>
               </td>
               <td>
                 {$player.created}
@@ -75,7 +75,7 @@
             {foreach from=$players_commed item="player"}
               <tr class="collapse" onclick="{$player.link_url}">
                 <td class="text:center">
-                  <img src="images/games/{$player.icon}" alt="{$player.icon}" title="MOD" border="0" align="absmiddle"/>&nbsp;<i class="responsive_show:desktop {$player.type}"></i>
+                  <img src="images/games/{$player.icon}" alt="{$player.icon}" title="模组" border="0" align="absmiddle"/>&nbsp;<i class="responsive_show:desktop {$player.type}"></i>
                 </td>
                 <td>
                   {$player.created}

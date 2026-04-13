@@ -30,20 +30,20 @@
         <div class="layout_container responsive_hide:mobile flex flex-jc:space-between flex-ai:center">
 			<div class="flex flex-fd:column text:left">
 				<a href="./index.php?p=home" class="header_logo">
-					<img src="images/{$logo}" alt="SourceBans Logo" />
+					<img src="images/{$logo}" alt="SourceBans 标志" />
 				</a>
 			</div>
 			<div class="flex flex-fd:column text:right responsive_show:desktop">
             {literal}
                     <form method="get" action="index.php">
                         <input type="hidden" name="p" value="banlist" />
-                        <input class="searchbox" alt="Search Bans" name="searchText" type="text" onfocus="this.value='';" onblur="if (this.value=='') {this.value=' Search Bans...';}" value=" 搜索封禁..." />
+                        <input class="searchbox" alt="搜索封禁" name="searchText" type="text" onfocus="this.value='';" onblur="if (this.value=='') {this.value=' 搜索封禁...';}" value=" 搜索封禁..." />
                         <input class="button_search" type="submit" name="Submit" value="搜索" />
                     </form>
 
 	                <form method="get" action="index.php">
                         <input type="hidden" name="p" value="commslist" />
-                        <input class="searchbox" alt="Search Comms" name="searchText" type="text" onfocus="this.value='';" onblur="if (this.value=='') {this.value=' Search Comms...';}" value=" 搜索禁言... " />
+                        <input class="searchbox" alt="搜索禁言" name="searchText" type="text" onfocus="this.value='';" onblur="if (this.value=='') {this.value=' 搜索禁言...';}" value=" 搜索禁言... " />
                         <input class="button_search" type="submit" name="Submit" value="搜索" />
                     </form>
             {/literal}

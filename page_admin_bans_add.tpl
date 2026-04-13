@@ -45,7 +45,7 @@
 
         <div class="margin-bottom:half">
             <label for="steam" class="form-label form-label:bottom">
-                Steam ID / Community ID
+                Steam ID / 社区 ID
             </label>
 
             <input type="text" TABINDEX=3 class="form-input form-full" id="steam" name="steam" />

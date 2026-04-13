@@ -49,7 +49,7 @@
   <div class="layout_box margin-bottom padding:half flex flex-jc:space-between flex-ai:center m:flex-fd:column">
     <span>
       <a href="index.php?p=commslist&hideinactive={if $hidetext == '隐藏'}true{else}false{/if}{$searchlink|smarty_htmlspecialchars}"
-        title="{$hidetext} inactive">{$hidetext} 已失效的封禁</a> | <i>禁言数: {$total_bans}</i>
+        title="{$hidetext} 不活跃">{$hidetext} 已失效的封禁</a> | <i>禁言数: {$total_bans}</i>
     </span>
     <div class="pagination">
       <span>{$ban_nav}</span>

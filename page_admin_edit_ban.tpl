@@ -45,7 +45,7 @@
                 <tr>
                     <td valign="top">
                         <div class="rowdesc">
-                            -{help_icon title="Steam ID" message="这是被封禁玩家的 Steam ID。您也可以输入 Community ID。"}-Steam ID
+                            -{help_icon title="Steam ID" message="这是被封禁玩家的 Steam ID。您也可以输入社区 ID。"}-Steam ID
                         </div>
                     </td>
                 <td>

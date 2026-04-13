@@ -9,7 +9,7 @@
     <body>
         <div id="header">
             <div id="head-logo">
-                <a href="index.php"><img src="../images/logos/sb-large.png" border="0" alt="SourceBans Logo" /></a>
+                <a href="index.php"><img src="../images/logos/sb-large.png" border="0" alt="SourceBans 标志" /></a>
             </div>
         </div>
         <div id="tabsWrapper"></div>
