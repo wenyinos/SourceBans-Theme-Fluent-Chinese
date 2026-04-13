@@ -1,36 +1,54 @@
-![Header Github](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/sourcebans-web-theme-fluent/screenshot.jpg)
+# SourceBans++ Fluent 主题中文版
 
-# Theme Fluent for SourceBans++ (PHP 8.1 Branch)
-Fluent Design Theme Edition is a combination of Fluent Design styles Microsoft, iOS Design, Android Design and Google Design. We have also introduced many interesting features that are unique in standard themes.
+基于 Fluent Design 设计语言的 SourceBans++ 网页主题中文汉化版。
 
-## 🏷️ Requirements 
-- [SourceBans++ PHP 8.1 Branch](https://github.com/sbpp/sourcebans-pp/tree/php81)
+## ✨ 特性
+
+- 🎨 Fluent Design + iOS + Android + Google设计风格融合
+- 🇨🇳 完整的简体中文翻译（所有TPL模板文件）
+- 📱 响应式布局，支持移动端
+- 🌙 支持深色模式
+- ⚡ 现代化 UI 界面
+
+## 📋 环境要求
+
+- [SourceBans++ PHP 8.1 分支](https://github.com/sbpp/sourcebans-pp/tree/php81)
 - PHP 8.1+
 
-## 🧰 Install 
-1. Download all files from repository or clone:
-```
-git clone https://github.com/Rushaway/sourcebans-web-theme-fluent.git
-```
-2. Move **sourcebans-web-theme-fluent** folder to Your Sourcebans -> **themes**;
-3. Go to (Website): AdminCP -> Web Panel -> **Themes**;
-4. Select theme **SourceBans++ Fluent Design Theme Edition**;
+## 📦 安装方法
 
-## 🛠️ Update 
-Reupload all files from repository.
+1. **下载主题文件**
+   ```bash
+   git clone https://github.com/wenyinos/SourceBans-Theme-Fluent-Chinese.git
+   ```
 
-## 🚀 Credits 
-- [aXenDeveloper](https://github.com/aXenDeveloper) (Author)
-- [Hackmastr](https://github.com/Hackmastr) (Update to PHP 8.1)
-- [Rushaway](https://github.com/Rushaway) (Maintainer) 
+2. **部署主题**
+   - 将主题文件夹复制到 SourceBans++ 的 `themes` 目录
 
-## 📷 Screenshots 
-![1](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/screenshots/1.png)
-![2](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/screenshots/2.png)
-![3](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/screenshots/3.png)
-![4](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/screenshots/4.png)
-![5](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/screenshots/5.png)
-![6](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/screenshots/6.png)
-![7](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/screenshots/7.png)
-![8](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/screenshots/8.png)
-![9](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/screenshots/9.png)
+3. **启用主题**
+   - 访问管理后台：AdminCP → Web Panel → Themes
+   - 选择 "SourceBans++ Fluent Design Theme Edition Chinese Edition"
+
+4. **更新主题**
+   - 重新上传所有文件即可
+
+## 📸 截图
+
+![主题截图](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/sourcebans-web-theme-fluent/screenshot.jpg)
+
+[查看更多截图](https://github.com/Rushaway/sourcebans-web-theme-fluent#-screenshots)
+
+## 🙏 致谢
+
+- [aXenDeveloper](https://github.com/aXenDeveloper) - 原作者
+- [Hackmastr](https://github.com/Hackmastr) - PHP 8.1 适配
+- [Rushaway](https://github.com/Rushaway) - 维护者
+- 中文翻译贡献者
+
+## 📄 许可证
+
+本项目遵循原 SourceBans++ Fluent Theme 的开源协议
+
+---
+
+💡 **提示**: 如需反馈问题或提交建议，请在 GitHub 提交 Issue 或 Pull Request。
