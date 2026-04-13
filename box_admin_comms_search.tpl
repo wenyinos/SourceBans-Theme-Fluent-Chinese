@@ -129,7 +129,7 @@
 
                                                 <select class="form-select form-full" id="server"
                                                     onmouseup="$('where_banned').checked = true">
-                                                    <option label="Web Ban" value="0">网页端封禁</option>
+                                                    <option label="网页端封禁" value="0">网页端封禁</option>
                                                     {foreach from=$server_list item="server"}
                                                         <option value="{$server.sid}" id="ss{$server.sid}">
                                                             获取主机名...

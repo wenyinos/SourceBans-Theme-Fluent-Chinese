@@ -151,7 +151,7 @@
                           <span><i class="fab fa-steam-symbol"></i> Steam ID</span>
 
                           {if empty($ban.steamid)}
-                            <span class="text:italic">没有 Steam ID</span>
+                            <span class="text:italic">无 Steam ID</span>
                           {else}
                             <span>{$ban.steamid}</span>
                           {/if}
@@ -167,9 +167,9 @@
                           {/if}
                         </li>
                         <li>
-                          <span><i class="fab fa-steam-symbol"></i> Steam Community</span>
+                          <span><i class="fab fa-steam-symbol"></i> Steam 社区</span>
                           {if empty($ban.steamid)}
-                            <span class="text:italic">没有 Steam Community ID</span>
+                            <span class="text:italic">无 Steam Community ID</span>
                           {else}
                             <a href="http://steamcommunity.com/profiles/{$ban.communityid}" target="_blank"
                               rel="noopener">{$ban.communityid}</a>

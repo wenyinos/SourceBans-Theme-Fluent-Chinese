@@ -94,7 +94,7 @@
           </li>
           <li>
             <a class="button button-important" href='index.php?p=logout'><i class="fas fa-sign-out-alt"></i>
-              Logout</a>
+              退出登录</a>
           </li>
         {else}
           <li>
@@ -119,7 +119,7 @@
       <div class="nav_mobile_tab_top padding flex">
         {if $login}
           <a class="button button-important button:full" href='index.php?p=logout'><i class="fas fa-sign-out-alt"></i>
-            Logout</a>
+            退出登录</a>
         {else}
           <!-- <a class="button button-success" href='index.php?p=login'>Existing user? Sign In</a> -->
           <a class="button button-success" href='index.php?p=login'>登录</a>

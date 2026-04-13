@@ -5,8 +5,8 @@
 	  <div class="layout_container flex flex-jc:space-between flex-ai:center">
 	    <div class="flex flex-fd:column text:left">
 	      <a href="https://sbpp.github.io/" target="_blank" rel="noopener">SourceBans++ | {$version}{$git}</a>
-	      <span>Powered by <a href="https://www.sourcemod.net" target="_blank" rel="noopener">SourceMod</a></span>
-	      <span><i class="fas fa-code"></i> Original <a href="https://github.com/Rushaway/sourcebans-web-theme-fluent" title="Theme Fluent for SourceBans++" target="_blank" rel="noopener">Theme</a> by <a href="https://axendev.net/" title="Theme by aXenDev" target="_blank" rel="noopener">aXenDev</a></span>
+	      <span>由 <a href="https://www.sourcemod.net" target="_blank" rel="noopener">SourceMod</a> 提供支持</span>
+	      <span><i class="fas fa-code"></i> <a href="https://github.com/Rushaway/sourcebans-web-theme-fluent" title="Theme Fluent for SourceBans++" target="_blank" rel="noopener">Fluent 主题</a> 由 <a href="https://axendev.net/" title="Theme by aXenDev" target="_blank" rel="noopener">aXenDev</a> 原创</span>
 	    </div>
 	    <div class="flex flex-fd:column text:right">
 	      <span>汉化<a href="https://github.com/wenyinos/SourceBans-Theme-Fluent-Chinese" target="_blank" rel="noopener">wenyinos</a></span>

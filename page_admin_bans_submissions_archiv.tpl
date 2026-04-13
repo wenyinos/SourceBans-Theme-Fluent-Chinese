@@ -1,7 +1,7 @@
 {if NOT $permission_protests}
     <section class="error padding">
         <i class="fas fa-exclamation-circle"></i>
-        <div class="error_title">Oops, there's a problem (╯°□°）╯︵ ┻━┻</div>
+        <div class="error_title">哎呀，出了点问题 (╯°□°）╯︵ ┻━┻</div>
 
         <div class="error_content">
             拒绝访问！
@@ -125,7 +125,7 @@
                                             </li>
 
                                             <li>
-                                                <span><i class="fa-solid fa-network-wired"></i> IP address</span>
+                                                <span><i class="fa-solid fa-network-wired"></i> IP 地址</span>
                                                 {if $sub.sip == ""}
                                                     <span class="text:italic">无 IP 地址</span>
                                                 {else}
@@ -191,7 +191,7 @@
                                                                 {if !empty($commenta.comname)}
                                                                     <span class="text:bold">{$commenta.comname|escape:'html'}</span>
                                                                 {else}
-                                                                    <span class="text:italic">Admin deleted</span>
+                                                                    <span class="text:italic">管理员已删除</span>
                                                                 {/if}
                                                                 <span>{$commenta.added}</span>
                                                                 {if $commenta.editcomlink != ""}

@@ -1,7 +1,7 @@
 {if NOT $permission_addban}
     <section class="error padding">
         <i class="fas fa-exclamation-circle"></i>
-        <div class="error_title">Oops, there's a problem (╯°□°）╯︵ ┻━┻</div>
+        <div class="error_title">哎呀，出了点问题 (╯°□°）╯︵ ┻━┻</div>
 
         <div class="error_content">
             拒绝访问！

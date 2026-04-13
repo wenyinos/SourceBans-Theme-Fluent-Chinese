@@ -63,7 +63,7 @@
                     <tr>
                         {if $view_bans}
                             <th class="text:left">
-                                <input type="checkbox" title="Select All" name="tickswitch" id="tickswitch" onclick="TickSelectAll()" class="form-check" />
+                                <input type="checkbox" title="全选" name="tickswitch" id="tickswitch" onclick="TickSelectAll()" class="form-check" />
                             </th>
                         {/if}
                         <th>游戏/地区</th>
@@ -339,10 +339,10 @@
             {if $can_export}
                 <ul class="list-reset text:right">
                     <li>
-                        <a href="./exportbans.php?type=steam" title="Export Permanent SteamID Bans">导出永久封禁的 SteamID 列表</a>
+                        <a href="./exportbans.php?type=steam" title="导出永久 SteamID 封禁">导出永久封禁的 SteamID 列表</a>
                     </li>
                     <li>
-                        <a href="./exportbans.php?type=ip" title="Export Permanent IP Bans">导出永久封禁的 IP 列表</a>
+                        <a href="./exportbans.php?type=ip" title="导出永久 IP 封禁">导出永久封禁的 IP 列表</a>
                     </li>
                 </ul>
             {/if}
