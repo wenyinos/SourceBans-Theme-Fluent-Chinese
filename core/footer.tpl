@@ -9,9 +9,8 @@
 	      <span><i class="fas fa-code"></i> Original <a href="https://github.com/Rushaway/sourcebans-web-theme-fluent" title="Theme Fluent for SourceBans++" target="_blank" rel="noopener">Theme</a> by <a href="https://axendev.net/" title="Theme by aXenDev" target="_blank" rel="noopener">aXenDev</a></span>
 	    </div>
 	    <div class="flex flex-fd:column text:right">
-	      <span>汉化<a href="https://github.com/WenYin-Community/sourcebans-web-theme-fluent-Chinese" target="_blank" rel="noopener">WenYin-Community</a></span>
+	      <span>汉化<a href="https://github.com/wenyinos/SourceBans-Theme-Fluent-Chinese" target="_blank" rel="noopener">wenyinos</a></span>
 		  <span>感谢<a href="https://github.com/F1F88" target="_blank" rel="noopener">F1F88</a></span>
-	      <a href="https://beian.miit.gov.cn/" target="_blank">牛B74110号</a>
 	    </div>
 	  </div>
 	</footer>
