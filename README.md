@@ -34,7 +34,6 @@
 
 ## 📸 截图
 
-![主题截图](https://raw.githubusercontent.com/Rushaway/sourcebans-web-theme-fluent/master/sourcebans-web-theme-fluent/screenshot.jpg)
 
 [查看更多截图](https://github.com/Rushaway/sourcebans-web-theme-fluent#-screenshots)
 
