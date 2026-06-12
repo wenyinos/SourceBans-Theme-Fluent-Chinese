@@ -308,8 +308,8 @@
 
   <div class="layout_box padding:half margin-top text:right">
   <!---->
-    <span class="text:italic">SourceComms plugin &#038; integration to SourceBans made by <a
-        href="https://github.com/ppalex7" class="text:bold" target="_blank" rel="noopener">Alex</a></span>
+    <span class="text:italic">SourceComms 插件 & 整合到 SourceBans 由 <a
+        href="https://github.com/ppalex7" class="text:bold" target="_blank" rel="noopener">Alex</a> 制作</span>
 
   </div>
 

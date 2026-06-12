@@ -126,7 +126,6 @@
     <div class="padding">
         <div class="margin-bottom:half">
             <label for="dash_intro_title" class="form-label form-label:bottom">
-                Intro Title
                 介绍标题
             </label>
 

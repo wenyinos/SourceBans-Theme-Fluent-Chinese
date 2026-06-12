@@ -120,7 +120,7 @@
                     <td>
                         <div align="left">
                             <select id="banlength" name="banlength" TABINDEX=5 class="submit-fields">
-                                <option value="0">永恒的</option>
+                                <option value="0">永久</option>
                                 <optgroup label="分钟">
                                     <option value="1">1 分钟</option>
                                     <option value="5">5 分钟</option>

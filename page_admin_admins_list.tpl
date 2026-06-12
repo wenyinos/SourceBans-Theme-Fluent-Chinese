@@ -23,7 +23,7 @@
                                 <th class="text:left">名称</th>
                                 <th class="text:left">服务器管理员组</th>
                                 <th class="text:left">网页管理员组</th>
-                                <th class="text:left"> immunity 等级</th>
+                                <th class="text:left"> 免疫等级</th>
                                 <th class="text:left">最后访问</th>
                             </tr>
                         </thead>

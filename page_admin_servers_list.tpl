@@ -54,7 +54,7 @@
                                         <li>
                                             <a class="button button-light"
                                                 href="index.php?p=admin&c=servers&o=admincheck&id={$server.sid}">
-                                                Admins
+                                                管理员
                                             </a>
                                         </li>
                                         {if $permission_editserver}

@@ -9,7 +9,7 @@
     </div>
 
     <div class="error_code">
-      错误代码: <span class="text:bold">403 Forbidden</span>
+      错误代码: <span class="text:bold">403 禁止访问</span>
     </div>
   </section>
   {else}
@@ -123,14 +123,14 @@
         </div>
 
         <div class="margin-bottom:half">
-          <h4 class="form-label">Steam 组服务器访问s</h4>
+          <h4 class="form-label">Steam 组服务器访问</h4>
 
           <ul class="list-reset">
             {foreach from=$group_list item="group"}
             <li class="margin-bottom:half">
               <input type="checkbox" id="group[{$group.gid}]" class="form-check" name="group[]" value="g{$group.gid}" />
               <label for="group[{$group.gid}]" class="form-label form-label:left">
-                {$group.name} <span class="text:bold text:italic">(Group)</span>
+                {$group.name} <span class="text:bold text:italic">(组)</span>
               </label>
             </li>
             {/foreach}

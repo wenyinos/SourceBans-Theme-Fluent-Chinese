@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="Shortcut Icon" href="../images/favicon.ico" />
-		<meta name="description" content="Sourcebans for website - Upload file" />
+		<meta name="description" content="SourceBans 网站 - 上传文件" />
 		<title>上传文件 : SourceBans</title>
 		<script type="text/javascript" src="../scripts/fontawesome-all.min.js"></script>
 	</head>

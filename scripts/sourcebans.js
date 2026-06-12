@@ -759,7 +759,7 @@ function process_add_server() {
 
 function process_edit_server() {
   if ($('rcon').value != $('rcon2').value) {
-    $('rcon2.msg').innerHTML = "Passwords don't match.";
+    $('rcon2.msg').innerHTML = "两次输入的密码不一致";
     $('rcon2.msg').setStyle('display', 'block');
     return;
   }
@@ -969,9 +969,9 @@ function ShowBox(title, msg, color, redir, noclose) {
 
   var jsCde = "closeMsg('" + redir + "');";
   $('dialog-control').setHTML(
-    "<input name='dialog-close' onclick=\"" +
+      "<input name='dialog-close' onclick=\"" +
       jsCde +
-      '" class=\'button button-success flex:11\' onmouseover="ButtonOver(\'dialog-close\')" onmouseout=\'ButtonOver("dialog-close")\' id="dialog-close" value="OK" type="button">'
+      '" class=\'button button-success flex:11\' onmouseover="ButtonOver(\'dialog-close\')" onmouseout=\'ButtonOver("dialog-close")\' id="dialog-close" value="确定" type="button">'
   );
   $('dialog-control').setStyle('display', 'block');
 
@@ -1134,7 +1134,7 @@ function ShowRehashBox(servers, title, msg, color, redir) {
   }
   msg =
     msg +
-    '<br /><hr /><i>Rehashing Admin and Group data on all related servers...</i><div id="rehashDiv" name="rehashDiv" width="100%"></div>';
+    '<br /><hr /><i>正在所有相关服务器上刷新管理员和组数据...</i><div id="rehashDiv" name="rehashDiv" width="100%"></div>';
   ShowBox(title, msg, color, redir, true);
   $('dialog-control').setStyle('display', 'none');
   xajax_RehashAdmins(servers);
@@ -1162,7 +1162,7 @@ function ProcessComment() {
 }
 
 function RemoveComment(cid, type, page) {
-  var checkUp = confirm('Are you sure you want to delete the comment?');
+  var checkUp = confirm('确定要删除这条评论吗?');
   if (checkUp == false) return;
   xajax_RemoveComment(cid, type, page);
 }
@@ -1174,14 +1174,14 @@ function TickSelectAll() {
   }
   if ($('tickswitch').value == 0) {
     $('tickswitch').value = 1;
-    $('tickswitch').setProperty('title', 'Deselect All');
-    $('tickswitchlink').setProperty('title', 'Deselect All');
-    $('tickswitchlink').innerHTML = 'Deselect All';
+    $('tickswitch').setProperty('title', '取消全选');
+    $('tickswitchlink').setProperty('title', '取消全选');
+    $('tickswitchlink').innerHTML = '取消全选';
   } else {
     $('tickswitch').value = 0;
-    $('tickswitch').setProperty('title', 'Select All');
-    $('tickswitchlink').setProperty('title', 'Select All');
-    $('tickswitchlink').innerHTML = 'Select All';
+    $('tickswitch').setProperty('title', '全选');
+    $('tickswitchlink').setProperty('title', '全选');
+    $('tickswitchlink').innerHTML = '全选';
   }
 }
 
@@ -1193,24 +1193,24 @@ function BulkEdit(action, bankey) {
   }
   switch (option) {
     case 'U':
-      UnbanBan(ids, bankey, '', 'Bulk Unban', '1', 'true');
+      UnbanBan(ids, bankey, '', '批量解封', '1', 'true');
       break;
     case 'D':
-      RemoveBan(ids, bankey, '', 'Bulk Delete', '0', 'true');
+      RemoveBan(ids, bankey, '', '批量删除', '0', 'true');
       break;
   }
 }
 
 function BanFriendsProcess(fid, name) {
   var checkUp = confirm(
-    "Are you sure you want to ban all steam community friends of '" + name + "'?"
+    "确定要封禁 '" + name + "' 的所有 Steam 社区好友吗?"
   );
   if (checkUp == false) return;
   ShowBox(
-    'Banning friends of ' + name,
-    "Banning all steam community friends of '" +
+    '正在封禁 ' + name + ' 的好友',
+    "正在封禁 '" +
       name +
-      '。<br />请稍候...<br />这可能会持续很长时间，取决于好友数量。',
+      "' 的所有 Steam 社区好友。<br />请稍候...<br />这可能会持续很长时间，取决于好友数量。",
     'blue',
     '',
     true
